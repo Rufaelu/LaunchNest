@@ -17,7 +17,7 @@
 
             @if(auth()->user()->hasAllRoles("Admin"))
             <div class="admin-actions">
-                <a href="{{ route('admin.addjob') }}" class="add-job-btn">+ Add Job</a>
+                <a href="{{ route('admin.addjob') }}" class="add-job-btn">+ Add a Job</a>
             </div>
             @endif
 
