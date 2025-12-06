@@ -13,7 +13,7 @@
     align-items: center;
     margin-left: 20px;
 }
-</style>            <h2 class="search-title">Discover Your Next Opportunity</h2>
+</style>            <h2 class="search-title">Discover Your Next Job Opportunity</h2>
 
             @if(auth()->user()->hasAllRoles("Admin"))
             <div class="admin-actions">
